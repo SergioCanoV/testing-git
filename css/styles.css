@@ -1,0 +1,67 @@
+/* EXTERNAL CSS: we use a .css to create global to the entire htmls created a homogenized properties for specific elements */
+/* CREATE ELEMENTS IN CSS SYNTAXIS:*/
+/* css rule */
+/* selector */
+/* declaration block */
+/* declaration */
+/* property */
+/* value */
+/* h1 {
+  color: green;
+  font-size: 50px;
+}
+h2 {
+  color: blue;
+  font-size: 30px;
+}
+p {
+  color: grey;
+} */
+/* ----------------------------------------------------------------- */
+/* if the property values are the same you can group the elements by commas */
+/* h1,
+h2,
+p {
+  color: chocolate;
+} */
+/* ----------------------------------------------------------------- */
+/* ID SELECTORS */
+#title {
+  color: green;
+  background: black;
+}
+
+#subheading {
+  color: black;
+  background: green;
+}
+/* ----------------------------------------------------------------- */
+/* CLASS SELECTOR: the advantage is that you can repeat the class in different elements.  To call a class in CSS is with a '.' */
+.green {
+  color: green;
+  background: yellow;
+}
+.red {
+  color: red;
+  background: black;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* DIV AND SPAN - used for grouping
+DIV - used to group multiple elements
+SPAN - used to group inline content */
+div {
+  color: red;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.text {
+  background: white;
+  color: blue;
+}
